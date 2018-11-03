@@ -1,0 +1,33 @@
+
+div.go-up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+
+  bottom: 20px;
+  right: 20px;
+
+  width: 60px;
+  height: 60px;
+
+  background: #FFE800;
+  border-radius: 50%;
+
+  font-size: 30px;
+
+  cursor: pointer;
+
+  box-shadow: rgba(0,0,0,0.3) 2px 2px 5px;
+
+  transition: color, background-color 200ms;
+
+
+  &:hover{
+
+    background: black;
+    color: white;
+
+  }
+}
